@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         PluginManager.getInstance().init(this);
-        final PrinterShareUtil printerShareUtil = new PrinterShareUtil(this);
+        final FileUtil printerShareUtil = new FileUtil(this);
         findViewById(R.id.btn_load).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

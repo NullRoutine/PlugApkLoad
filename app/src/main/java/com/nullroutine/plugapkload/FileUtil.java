@@ -16,16 +16,16 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * 打印机安装辅助类
+ * 拷贝文件
  * Created by tang.wangqiang on 2018/9/26.
  */
 
-public class PrinterShareUtil {
+public class FileUtil {
     private static final String FILE_NAME = "plugapk.apk";
     private Context mContext;
     public static final int REQUEST_CODE_UNKNOWN_APP = 10018;
 
-    public PrinterShareUtil(Context context) {
+    public FileUtil(Context context) {
         this.mContext = context;
     }
 
